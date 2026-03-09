@@ -1,11 +1,24 @@
-<div align="center">
+# itBD Ai Signal - Vercel Deployment Guide
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+এই প্রজেক্টটি Vercel-এ সফলভাবে ডেপ্লয় করার জন্য নিচের স্ট্রাকচারটি অনুসরণ করুন:
 
-  <h1>Built with AI Studio</h2>
+## সঠিক ফাইল স্ট্রাকচার (Root Directory):
+- `index.html`
+- `package.json`
+- `vite.config.ts`
+- `tsconfig.json`
+- `src/` (ফোল্ডার)
+  - `App.tsx`
+  - `main.tsx`
+  - `index.css`
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Deployment Steps:
+1. AI Studio থেকে **Download as ZIP** করুন।
+2. ফাইলগুলো আনজিপ করুন।
+3. আপনার GitHub রিপোজিটরিতে এই ফাইলগুলো আপলোড করুন (নিশ্চিত করুন `src` ফোল্ডারটি আছে)।
+4. Vercel-এ গিয়ে প্রজেক্টটি ইমপোর্ট করুন।
+5. **Framework Preset:** `Vite` সিলেক্ট করুন।
+6. **Build Command:** `npm run build`
+7. **Output Directory:** `dist`
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+প্রয়োজনে যোগাযোগ করুন: [Telegram @ITBD_Parvej](https://t.me/ITBD_Parvej)
