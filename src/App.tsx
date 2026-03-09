@@ -1,6 +1,7 @@
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
+ * itBD Ai Signal - Optimized for Vercel Deployment
  */
 
 import React, { useState, useEffect, useMemo } from 'react';
